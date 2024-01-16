@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+#root,body,html{
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+
+.health-container{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  background-color: #EDEDED;
+  min-height: 100vh;
+  grid-gap: 1rem;
+}
+
+.grid-item{
+  /* background-color: #FF2801; */
+  color: white;
+}
+.ad-soyad{
+  background-color: #797D7F;
+}
+.nabiz{
+  background-color: #FF2801;
+}
+.yas{
+  background-color: #4CAF50;
+}
+.sigara{
+  background-color: #8D6E63;
+}
+.bmi{
+  background-color: #00BCD4;
+}
+.health-grid-element{
+  background-color: #42C3A2;
+}
+
+.kanbasinci{
+  background-color: #AF7AC5;
+}
+
+.felc{
+  background-color: #943126;
+}
+
+.diyabet{
+  background-color: #196F3D;
+}
+
+.cinsiyet{
+  background-color: #34495E;
+}
+
+.hipertansiyon{
+  background-color: #3957A5;
+}
+
+
+.close{
+  background-color: white;
+  border: none;
+}
+
+.grid-value{
+  font-size: 48px;
+  font-weight: 500;
+}
+
+
+input{
+  width: 100%;
+}
+
+
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 400px;
+}
+
+.result-text{
+  font-size: 24px;
+}
+.cikis-btn{
+  border: none;
+  font-weight: 500;
+}
+
+.close {
+  width: 16px;
+  height: 16px;
+}

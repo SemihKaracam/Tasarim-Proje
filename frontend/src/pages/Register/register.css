@@ -1,0 +1,44 @@
+.register-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+form{
+    width: 80%;
+}
+.register-form{
+    /* min-width: 980px; */
+    /* display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+/* .register-form > div {
+    flex-basis: 46%;
+} */
+
+select,input{
+    width: 100%;
+    padding: 10px 8px;
+}
+.btn-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success{
+    margin-top: 16px;
+    margin-left: auto;
+    padding: 10px 16px;
+}
+
+
